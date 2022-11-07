@@ -8,4 +8,6 @@ function clearDisplay(){
 
 function equalClick(){
     var text = document.getElementById("screen").value
+    var result=eval(text)
+    document.getElementById("screen").value=result
 }
